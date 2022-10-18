@@ -1,0 +1,544 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666107929550693, "dur":1516, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107929552218, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666107929552291, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666107929552312, "dur":548, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666107929552896, "dur":507, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107929553403, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708646, "dur":171, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708817, "dur":69, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708886, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708898, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708906, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708909, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708914, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708916, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708922, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708924, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708929, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708931, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708937, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708938, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708944, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708946, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708951, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708953, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708958, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708959, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708965, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708967, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708972, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708974, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708982, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930708986, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930709039, "dur":1703, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666107929552908, "dur":528, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107929553438, "dur":7890, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107929561352, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666107929561358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107929562823, "dur":476, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666107929563302, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666107929563364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107929563701, "dur":23316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666107929587020, "dur":196891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1666107929783917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107929783928, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1666107929785786, "dur":62312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107929848101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107929848110, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107929851600, "dur":138822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107929990427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107929990437, "dur":12788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930003307, "dur":20397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930023708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930023719, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930027969, "dur":101362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930129336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930129345, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930131697, "dur":52431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930184133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930184143, "dur":36249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930220445, "dur":25302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930245750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930245759, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930247051, "dur":92460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930339516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930339526, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930340689, "dur":70791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930411484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930411492, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930413025, "dur":106330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930519358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930519366, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666107930521636, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1666107930521790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930521823, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1666107930523011, "dur":16015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1666107930539032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666107930539043, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1666107930540135, "dur":168508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929552957, "dur":525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929553482, "dur":8010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929561494, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666107929561946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929565245, "dur":32873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666107929598181, "dur":194933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929793120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929793229, "dur":7933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929801218, "dur":32212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929833434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929833467, "dur":7137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929840652, "dur":20195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929860852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929860862, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929863661, "dur":36155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929899821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929899830, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929900940, "dur":15673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929916617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929916624, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929917718, "dur":24120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929941843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929941852, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929942897, "dur":43459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929986363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107929986375, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107929987564, "dur":167975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107930155545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107930155554, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107930156867, "dur":62652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107930219522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107930219529, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107930222958, "dur":30756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107930253719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107930253728, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107930254756, "dur":326975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107930581738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666107930581750, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666107930583356, "dur":125305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929552938, "dur":504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929553442, "dur":8058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929561502, "dur":15103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666107929576610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929576643, "dur":6740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666107929583431, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1666107929583524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929583715, "dur":202881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1666107929786650, "dur":41245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107929827902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929827914, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107929829302, "dur":21128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107929850435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929850444, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107929855221, "dur":40548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107929895774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929895783, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107929896956, "dur":83719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107929980678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107929980686, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107929982815, "dur":70374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930053194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107930053203, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930054464, "dur":48157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930102629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107930102640, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930103930, "dur":54640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930158575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107930158584, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930159633, "dur":236770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930396409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107930396418, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930397787, "dur":182782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930580573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666107930580582, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666107930582890, "dur":125763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107929553017, "dur":504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107929553521, "dur":8012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107929561533, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666107929561860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107929567131, "dur":264472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666107929831657, "dur":19484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107929851145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107929851153, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107929853359, "dur":16449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107929869812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107929869822, "dur":2486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107929872361, "dur":72389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107929944756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107929944765, "dur":8301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107929953120, "dur":27522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107929980646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107929980655, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107929984251, "dur":121931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930106187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107930106199, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930107396, "dur":57634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930165033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107930165042, "dur":32418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930197510, "dur":42918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930240431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107930240439, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930242002, "dur":37180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930279185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107930279192, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930280453, "dur":89355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930369814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107930369823, "dur":4084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930373959, "dur":161097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930535079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666107930535087, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666107930536514, "dur":172130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107929553129, "dur":435, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107929553564, "dur":7800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107929561365, "dur":27066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1666107929588436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107929588489, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1666107929589672, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1666107929589796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107929589807, "dur":272471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1666107929862335, "dur":215573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930077913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930077922, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930080056, "dur":45521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930125582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930125592, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930126729, "dur":21225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930147959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930147990, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930149023, "dur":61625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930210677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930210687, "dur":11107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930221847, "dur":36551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930258404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930258414, "dur":8722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930267186, "dur":100462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930367653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930367663, "dur":5693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930373432, "dur":82789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930456226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930456236, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930457352, "dur":41146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930498503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930498512, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930499728, "dur":98659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930598391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666107930598397, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666107930599537, "dur":109110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107929553207, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107929553574, "dur":7793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107929561376, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1666107929561717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107929568006, "dur":21935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1666107929590008, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1666107929590105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107929590112, "dur":195494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1666107929785671, "dur":48329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim.exe" }}
+,{ "pid":12345, "tid":6, "ts":1666107929834004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107929834009, "dur":13401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim.exe" }}
+,{ "pid":12345, "tid":6, "ts":1666107929847460, "dur":15301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107929862765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107929862773, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107929866440, "dur":43033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107929909478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107929909487, "dur":4966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107929914583, "dur":89371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930003958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930003967, "dur":9469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930013492, "dur":31711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930045209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930045226, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930047646, "dur":13943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930061594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930061604, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930062651, "dur":23326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930085981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930085990, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930088269, "dur":15433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930103707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930103718, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930105224, "dur":28151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930133380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930133389, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930134590, "dur":84296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930218889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930218896, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930222058, "dur":67603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930289666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930289699, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930290850, "dur":195471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930486327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930486337, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930487965, "dur":161220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930649189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666107930649196, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666107930650080, "dur":58573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666107929553293, "dur":325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666107929553618, "dur":7772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666107929561392, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1666107929561720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666107929567824, "dur":28268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1666107929596251, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1666107929596380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666107929596392, "dur":187818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1666107929784271, "dur":448629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666107930232905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666107930232913, "dur":49039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666107930282003, "dur":167146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666107930449155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666107930449164, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666107930450576, "dur":99988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666107930550570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666107930550579, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666107930552267, "dur":156413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929553379, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929553624, "dur":7730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929561356, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1666107929561687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929568055, "dur":29339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1666107929597456, "dur":186636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929784095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929784762, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929786309, "dur":19065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929805380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929805660, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929807135, "dur":14297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929821438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929821536, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929822747, "dur":27836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929850586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929850593, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929853126, "dur":62866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929915996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929916007, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929917230, "dur":34421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929951657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929951666, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929952820, "dur":16143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929968970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107929968980, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107929970158, "dur":65725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930035890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930035900, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930037343, "dur":19644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930056992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930057002, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930058059, "dur":28870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930086934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930086943, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930088444, "dur":15409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930103856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930103863, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930105345, "dur":53887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930159236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930159244, "dur":5739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930165041, "dur":54141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930219186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930219192, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930222041, "dur":38782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930260851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930260860, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930264792, "dur":83592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930348389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930348399, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930350577, "dur":27721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930378304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930378314, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930379616, "dur":181912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930561532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666107930561562, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666107930564708, "dur":143959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107929553483, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107929553484, "dur":7994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107929561480, "dur":15414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1666107929576897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107929576918, "dur":5877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1666107929582860, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1666107929583000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107929583750, "dur":201851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1666107929785667, "dur":103064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1666107929888736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107929888744, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1666107929891053, "dur":97161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107929988218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107929988227, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107929991327, "dur":60877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930052209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930052220, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930053348, "dur":29541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930082893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930082903, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930084272, "dur":101858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930186135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930186144, "dur":35985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930222180, "dur":22020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930244205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930244215, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930245356, "dur":33819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930279180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930279188, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930280379, "dur":92177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930372562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930372571, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930373769, "dur":26181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930399955, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930399966, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930401130, "dur":69683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930470818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930470828, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930471908, "dur":233873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930705784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1666107930705790, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1666107930708613, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1666107930708615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107929553562, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107929553563, "dur":7812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107929561378, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1666107929561772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107929568017, "dur":256563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1666107929824638, "dur":21520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107929846165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107929846176, "dur":17243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107929863481, "dur":370127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930233612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107930233619, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930234779, "dur":1270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930236053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107930236062, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930237047, "dur":1188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930238240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107930238249, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930239310, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930240310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107930240321, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930242033, "dur":166775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930408812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107930408822, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930410025, "dur":145142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930555173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1666107930555184, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1666107930557390, "dur":151305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929553677, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929553677, "dur":7693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929561370, "dur":15281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1666107929576655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929576764, "dur":6475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1666107929583291, "dur":31798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1666107929615095, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929615108, "dur":170561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1666107929785741, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1666107929785858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929786166, "dur":16192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1666107929802415, "dur":30398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929832817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929832827, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929834379, "dur":16120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929850503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929850509, "dur":6330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929856897, "dur":87905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929944807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929944879, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929949268, "dur":15259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929964533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929964543, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929965866, "dur":14444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107929980314, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107929980326, "dur":46278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930026655, "dur":71142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930097803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930097813, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930099056, "dur":38134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930137196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930137206, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930138393, "dur":111096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930249495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930249506, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930251798, "dur":26377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930278181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930278193, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930279366, "dur":237026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930516397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930516485, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1666107930519346, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1666107930519439, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930519492, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1666107930520762, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1666107930520812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930520817, "dur":5037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1666107930525955, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1666107930526010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930526019, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1666107930529114, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1666107930529167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930529175, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1666107930530931, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1666107930530979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930530986, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1666107930532028, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1666107930532077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930532086, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1666107930533443, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1666107930533496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930533505, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1666107930534751, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1666107930534802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930534810, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1666107930536032, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1666107930536168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1666107930536176, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1666107930537265, "dur":171379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107929553765, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107929553765, "dur":7582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107929561352, "dur":61693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1666107929623053, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107929784686, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1666107929785788, "dur":37106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107929822898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107929822907, "dur":5515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107929828483, "dur":122830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107929951319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107929951328, "dur":14629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107929966010, "dur":13777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107929979794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107929979805, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107929981770, "dur":37541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930019597, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930019609, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930023027, "dur":25100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930048130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930048139, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930049182, "dur":17158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930066345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930066354, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930067667, "dur":18146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930085818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930085830, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930087684, "dur":16173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930103861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930103867, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930105370, "dur":113310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930218685, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930218709, "dur":4061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930222905, "dur":2062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930224973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930224984, "dur":10415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930235449, "dur":22950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930258404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930258414, "dur":6178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930264649, "dur":53720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930318374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930318384, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930319822, "dur":90892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930410718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930410727, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930411999, "dur":105819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930517823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930517833, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1666107930518990, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1666107930519134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930519585, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1666107930520632, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1666107930520681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1666107930520688, "dur":39911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pontus/OneDrive/Skrivbord/FishingSim_Build/Fishing Sim_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1666107930560649, "dur":148025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666107930712076, "dur":1572, "ph":"X", "name": "ProfilerWriteOutput" }
+,
